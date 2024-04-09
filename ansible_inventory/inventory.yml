@@ -1,0 +1,4 @@
+webservers:
+  hosts:
+    ansible_vm:
+      csc-2510-ansible-demo: 10.128.0.5
