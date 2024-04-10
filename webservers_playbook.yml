@@ -24,7 +24,7 @@
         mode: 0644
     - name: copy config
       ansible.builtin.copy:
-        src: /home/diorburchfiel/adburchfie42-csc2510-infrastructure/files/config/apache2.conf
+        src: /home/diorburchfiel/adburchfie42-csc2510-infrastructure/files/config/apache2.config
         dest: /etc/apache2/apache2.conf
         owner: root
         group: root
