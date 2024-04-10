@@ -1,2 +1,4 @@
-10.128.0.5
-csc-2510-ansible-demo
+---
+webservers:
+  hosts:
+    10.128.0.5
